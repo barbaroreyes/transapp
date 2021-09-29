@@ -5,8 +5,8 @@ const Home = () => {
     <div className="home">
        <div className='header-home'>header</div>
          <Main/>
-      {/* 
-       <div>footer</div>  */}
+      
+       <div className='footer-home'>footer</div> 
     </div>
   );
 }

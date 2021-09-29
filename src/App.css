@@ -8,11 +8,19 @@
 }
 .home{
   display: flex;
+  justify-content: center;
+  /* flex-direction: column;
+  align-items: center; */
+  flex-wrap: wrap;
   padding: 20px;
   margin: 20px;
 
 }
 .main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   width: 70%;
   color:red;
   margin: 20px;
@@ -20,10 +28,21 @@
   padding: 20px;
 }
 .header-home{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   border: 1px solid  rgb(243, 182, 182);
  width: 20%;
  display: flex;
  padding: 20px;
+}
+.footer-home{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border: 4px solid black;
 }
 
 /* .App-logo {
