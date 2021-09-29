@@ -6,7 +6,7 @@ import Asside from '../component/Asside'
 const Home = () => {
   return (
     <div className="home">
-        <header className="Header">Header</header>
+        <header className="Header">Nav</header>
         <Asside/>
          <Main/>
         <Footer/>

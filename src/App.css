@@ -68,6 +68,8 @@
 @media (max-width: 768px) {
   .App{
     color: #fff;
+    cursor: pointer;
+   height: 500px;
   }
   
   .home{
@@ -77,20 +79,30 @@
     flex-direction: column;
     align-items: center;
     border: 4px solid white;
-    margin: 20px;
+    padding: 10px;
+   
   }.main{
-    display: flex;
-    border: 4px solid white;
-    padding: 25px;
-  }.footer-home{
-    width: 100%;
-    border: 4px solid white;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    border: 5px solid rgb(187, 23, 31);
+    padding: 35px;
+    margin: 10px;
+    border-radius: 300px;
+    height:100px;
+    animation: around infinite 20s linear;
+
+  }.footer-home{
+    width: 100%;
+    border: 4px solid rgb(187, 23, 31);;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
   }.box{
-    border: 4px solid white;
+    border: 5px solid rgb(187, 23, 31);
     width: 80%;
     height: 150px;
     margin: 10px;
@@ -99,8 +111,28 @@
     flex-direction: column;
     align-items: center;
 
+  }.header-home{
+    border: 4px solid rgb(187, 23, 31);;
+    /* margin: 20px; */
+   
+  }.main:hover{
+    color: red;
+  }.header-home{
+    display: none;
+  }.Header{
+    margin: 50px;
   }
 }
+
+@keyframes around {
+  from {
+    transform: rotate(0deg);
+    
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 
 
 /* .App-logo {
   height: 40vmin;
