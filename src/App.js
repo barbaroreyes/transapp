@@ -5,11 +5,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Switch>
+      <Home/>
+      {/* <Switch>
         <Route exact path="/">
          <Home/>
         </Route>
-      </Switch>
+      </Switch> */}
       
     </div>
   );
