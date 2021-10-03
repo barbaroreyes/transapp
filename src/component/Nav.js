@@ -13,7 +13,7 @@ const Nav = () => {
        <li className="items">Contact</li>
 
      </ul>
-     <button className="btn">BTN</button>
+     <button className="btn" onClick >BTN</button>
     {/* <Link to='/'>Home</Link>
     <Link to='/about'>About</Link>
     <Link to='/portafolio'>Portafolio</Link>
